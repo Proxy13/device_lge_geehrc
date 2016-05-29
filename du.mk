@@ -33,6 +33,13 @@ PRODUCT_BRAND := lge
 PRODUCT_MODEL := Optimus G
 PRODUCT_MANUFACTURER := LGE
 
+
+TARGET_KERNEL_CONFIG := gee_defconfig
+TARGET_VARIANT_CONFIG := gee_defconfig
+TARGET_SELINUX_CONFIG := gee_defconfig
+
+
+
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=occam BUILD_FINGERPRINT=google/occam/mako:4.4.2/KOT49H/937116:user/release-keys PRIVATE_BUILD_DESC="occam-user 4.4.2 KOT49H 937116 release-keys"
 
 
